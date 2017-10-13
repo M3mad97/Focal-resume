@@ -1,0 +1,360 @@
+/* start main rules */
+.Container {width:1170px;margin:auto;}
+
+.clearfix{clear:both}
+
+/* end main rules */
+
+/* Start Header */
+
+.Header .Slider{
+    background-image:url('../img/intro-slider.jpg');
+    -webkit-background-size:cover; 
+    -moz-background-size:cover; 
+    -o-background-size:cover; 
+    background-size:cover; 
+    height:600px;
+}
+.Header .Slider .intro{
+    padding-top:250px;
+    text-align:center;
+    color:#fff;
+}
+.Header .Slider .intro h2{
+    color:#fff;
+    margin:0 auto;
+    font-size:50px;
+    width:600px;
+    border-top:3px solid #fff;
+    border-bottom:3px solid #fff;
+    padding:5px 0 ;
+}
+.Header .Slider .intro button {
+    background:none;
+    margin-top:30px;
+    font-size:20px;
+    border:3px solid #fff;
+    font-weight:bold;
+    padding:10px 30px;
+    cursor:pointer;
+}
+.Header .Navbar{background-color:#252F31;color:#ECF0F1;overflow:hidden;}
+
+.Header .Navbar h2{text-transform: uppercase; color:#fff}
+
+.Header .Navbar h2 span {color:#2FBE7C}
+
+.Header .Navbar ul{
+    list-style:none;
+    padding-left:0;
+    overflow: hidden;
+    float:right;
+}
+
+.Header .Navbar ul li {padding:10px}
+
+.Header .Navbar ul li a{color:#fff;cursor:pointer;text-decoration:none;}
+
+.Header .Navbar ul li a:hover{color:#27AE60}
+
+/* End Header */
+/* Start Features */
+
+.features{overflow:hidden;padding-top:40px;padding-bottom:50px}
+
+.features .feat{width:33.3333%;height:150px;background-color:#FFFFFF;}
+
+.features .feat p{color:rgb(104, 101, 101);}
+/* End Features */
+/* Start About Me */
+
+.aboutme{background-color: #F2F2F2;overflow:hidden;}
+
+.aboutme .image{width:40%}
+
+.aboutme .image img {width:100%}
+
+.aboutme .info{width:60%}
+
+.aboutme .info h2 {margin: 25px 0 20px 40px;}
+
+.aboutme .info > p{margin: 0 0 10px 40px;}
+
+.aboutme .info > p:last-of-type {margin-top:20px}
+
+.aboutme .info .hobbies {overflow:hidden;margin:15px 0 0 40px;}
+
+.aboutme .info .hobbies .content{width:50%;overflow:hidden;}
+
+.aboutme .info .hobbies .content .icon {width:12%;margin-right:5%}
+
+.aboutme .info .hobbies .content .icon i{margin: 15px 10px 0 0;}
+
+.aboutme .info .hobbies .content .Text {width:83%;}
+
+.aboutme .info .hobbies .content .Text p{margin-top:0;}
+
+.aboutme .info .hobbies .content .Text h3{margin-bottom:5px;}
+
+/* End About Me */
+
+/* Start My Skills */
+
+.myskills {padding-top:30px;padding-bottom:50px;overflow: hidden;}
+
+.myskills .skills,
+.myskills .progress {width:50%;}
+
+.myskills .skills h2 {margin: 25px 0 20px 40px ;}
+
+.myskills .skills p{margin: 0 0 10px 40px;}
+
+.myskills .skills p:last-of-type {margin-top:20px}
+
+.myskills .skills button{margin-left:40px;margin-top:20px}
+
+.myskills .progress .technique {margin-left:50px}
+
+.myskills .progress .technique div {background-color:#F2F2F2;height:25px;}
+
+.myskills .progress .technique div span {
+    background-color:#9B59B6;
+    height:25px; 
+    display:block;
+    line-height:25px;
+    text-align:right;
+    color:#fff;
+}
+.resume button:hover,
+.myskills .skills button:hover{
+    color: #fff;
+    background-color: #2DCC70;
+}
+
+.resume button,
+.myskills .skills button{
+    transition: all 0.5s ease
+}
+/* End My Skills */
+/* Start Resume */
+.resume{
+    background-color: #F2F2F2;
+    padding-top:50px;
+    padding-bottom:80px;
+    text-align: center;    
+}
+.resume h2{text-transform:uppercase;font-weight: bold;}
+
+.resume p {padding:0 40px;}
+
+.resume button{margin-top: 10px;}
+
+/* End Resume */
+/* Start My Edication */
+
+.myedication {padding-top:30px;padding-bottom:0px;overflow: hidden;}
+
+.myedication .main{width:50%;margin-right:5%;}
+
+.myedication .main h2 {margin: 25px 0 20px 40px ;}
+
+.myedication .main p{margin: 0 0 10px 40px;}
+
+.myedication .main p:last-of-type {margin-top:20px}
+
+.myedication .exp{width:45%;}
+
+.myedication .exp h3{margin-top:80px;margin-bottom:5px;}
+
+.myedication .exp span{display:block;margin-bottom:5px;}
+
+.myedication .exp span:first-of-type{color:#999}
+
+.myedication .exp span:last-of-type{
+    color:#fff;
+    background-color:#2ECC71;
+    display:inline-block;
+    padding:5px 10px;
+}
+.myedication .exp hr{
+    margin:20px 0;
+    background-color:#999;
+    height:1px;
+    border:0;
+}
+
+/* End My Education */
+/* Start Work Experience */
+
+.workexperience {padding-top:30px;padding-bottom:30px;overflow: hidden;}
+
+.workexperience .main{width:50%;margin-right:5%;}
+
+.workexperience .main h2 {margin: 25px 0 20px 40px ;}
+
+.workexperience .main p{margin: 0 0 10px 40px;}
+
+.workexperience .main p:last-of-type {margin-top:20px}
+
+.workexperience .exp{width:45%;}
+
+.workexperience .exp h3{margin-top:80px;margin-bottom:5px;}
+
+.workexperience .exp span{display:block;margin-bottom:5px;}
+
+.workexperience .exp span:first-of-type{color:#999}
+
+.workexperience .exp span:last-of-type{
+    color:#fff;
+    background-color:#2ECC71;
+    display:inline-block;
+    padding:5px 10px;
+}
+.workexperience .exp hr{
+    margin:20px 0;
+    background-color:#999;
+    height:1px;
+    border:0;
+}
+/* End Work Experience */
+/* Start Testimonials */
+.testimonials{
+    background-color: #F2F2F2;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+}
+.testimonials q{
+    color:#7F8C8D;
+    font-size:18px;
+    font-style:italic;
+    font-weight:bold;
+    font-family: Arial, Tahoma
+}
+.testimonials h3 {color:#000;margin-bottom:30px;}
+
+.testimonials ul {list-style: none;padding-left: 0;text-align: center;}
+
+.testimonials ul li{
+    width:15px;
+    height:15px;
+    display:inline-block;
+    border:2px solid #2ECC71;
+    cursor:pointer;
+}
+.testimonials ul li:hover,
+.testimonials ul li.active{background-color:#2ECC71}
+/* End Testimonials */
+
+/* Start PortFolio */
+
+.portfolio{padding-top: 30px;padding-bottom: 30px;text-align: center;}
+
+.portfolio p{margin-bottom:30px}
+
+.portfolio .ourwork{overflow: hidden;}
+
+.portfolio .ourwork > div{float: left;width:33.333333%;margin-bottom: 15px;}
+
+.portfolio .ourwork >div img{
+    height:360px;
+    width:360px;
+    margin:auto;
+    transition: all 1s ease-in-out;
+}
+.portfolio .ourwork >div img:hover{
+	-webkit-box-shadow: 2px 3px 16px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 3px 16px -4px rgba(0,0,0,1);
+    box-shadow: 2px 3px 16px -4px rgba(0,0,0,1);
+	transform: scale(1.05);			
+}
+.portfolio .ourwork >div img:focus {
+	-webkit-box-shadow: 2px 3px 16px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 3px 16px -4px rgba(0,0,0,1);
+    box-shadow: 2px 3px 16px -4px rgba(0,0,0,1);
+	width: 45%;
+	transform: none;
+}
+/* End PortFolio */
+/* Start Contact Me */
+.contactme{
+    background-color:#252F31;
+    overflow: hidden;
+    padding-top:50px;
+    padding-bottom:70px;
+}
+.contactme .info{width:50%;margin-right:5%;}
+
+.contactme h2{color: #fff;margin-left:40px}
+
+.contactme p ,
+.contactme .info address{color:#3B4446;margin-left:40px;}
+
+.contactme p strong {color:#D1D6DA}
+
+.contactme .form{width:45%;}
+
+.contactme .form label{display:block;color:#95A5A6;margin:10px 0}
+
+.contactme .form textarea{
+    background-color:#4b5557;
+    color:#fff;
+    padding:5px;
+    border:0;
+    width:70%;
+    margin-bottom:10px;
+    height:200px;
+}
+.contactme .form input{
+    background-color:#4b5557;
+    color:#fff;
+    padding:5px;
+    border:0;
+    width:70%;
+    margin-bottom:10px;
+}
+.contactme .form input[type="submit"]{
+    background-color:#191f21;
+    color:#fff;
+    padding:10px 20px;
+    border:0;
+    margin-top:10px;
+    width:120px;
+    display:block;
+    transition: all 0.2s ease
+}
+.contactme .form input[type="submit"]:hover{
+    color: #191f21;
+    font-weight: bold;
+    background-color: #fff
+}
+/* End Contact Me */
+/* Start Footer */
+.footer{
+    background-color: #191E22;
+    color:#3B4446;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer ul{list-style:none;padding-left:0;}
+
+.footer ul li{display:inline-block}
+.footer ul li i {color:#555; margin: 0px 7px 0px 7px;transition: all 0.5s ease-in-out}
+.footer ul li i:hover {color:#fff}
+/* End Footer */
+/* Start My Framework */
+.Specialbutton{
+    color:#2DCC70;
+    background:none;
+    font-size:20px;
+    border:3px solid #2DCC70;
+    font-weight:bold;
+    padding:10px 30px;
+    cursor:pointer;
+    font-weight: bold;
+}
+.fl-left{float:left} /* floating Elements left */
+p {line-height:1.7;color:#888}
+h2 {color:#555}
+h3 {color:#666}
+/* End My Framework */
